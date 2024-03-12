@@ -21,6 +21,7 @@ contract SimpleStorage{
 
     // view, pure 는 지혼자 쓸 때 가스 안
     function retrieve() public view returns(uint256){
+        
         return favoriteNumber;
     }
 
